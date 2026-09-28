@@ -27,7 +27,8 @@ export function Cuidado() {
             Um cuidado pensado em você
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
-            Cada paciente é único. E o nosso cuidado também.
+            Cada paciente é único. 
+            E o nosso cuidado também.
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
             No Instituto Bernat, o cuidado começa antes da consulta. Desde o primeiro contato,
