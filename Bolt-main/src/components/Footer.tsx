@@ -14,12 +14,12 @@ export function Footer() {
               Odontologia Esportiva e Integrada
             </p>
             <p className="text-sm text-brand-300 mt-2 max-w-xs leading-relaxed">
-              Ci&ecirc;ncia, esporte e odontologia integrados para a sua sa&uacute;de.
+              Ciência, esporte e odontologia integrados para a sua saúde.
             </p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wider">Contato</h4>
+            <h4 className="font-serif text-sm font-semibold text-white mb-4 uppercase tracking-wider font-semibold tracking-wide">Contato</h4>
             <ul className="space-y-3 text-sm text-brand-300">
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-brand-400 shrink-0" />
@@ -41,15 +41,15 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wider">Instituto Bernat</h4>
+            <h4 className="font-serif text-sm font-semibold text-white mb-4 uppercase tracking-wider font-semibold tracking-wide">Instituto Bernat</h4>
             <p className="text-sm text-brand-300 leading-relaxed">
               Odontologia Esportiva e Integrada
             </p>
             <p className="text-sm text-brand-300 mt-2 leading-relaxed">
-              Ci&ecirc;ncia, esporte e odontologia integrados para a sua sa&uacute;de.
+              Ciência, esporte e odontologia integrados para a sua saúde.
             </p>
             <p className="text-sm text-brand-400 mt-4 leading-relaxed">
-              Fundado em 27 de junho de 2026 &middot; Bras&iacute;lia/DF
+              Brasília/DF
             </p>
           </div>
         </div>
