@@ -2,9 +2,9 @@ import { Check, Clock, MapPin, MessageCircle } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 
 const checks = [
-  'Escuta e aten&ccedil;&atilde;o &agrave;s suas necessidades',
-  'Agilidade na comunica&ccedil;&atilde;o e no agendamento',
-  'Acompanhamento pr&oacute;ximo em cada contato',
+  'Escuta e atenção às suas necessidades',
+  'Agilidade na comunicação e no agendamento',
+  'Acompanhamento próximo em cada contato',
 ];
 
 export function Contato() {
@@ -13,15 +13,15 @@ export function Contato() {
       <div className="max-w-7xl mx-auto px-6">
         <Reveal className="text-center mb-14 max-w-2xl mx-auto">
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
-            Contato &amp; Atendimento
+            Contato & Atendimento
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 mb-4">
-            Agende sua avalia&ccedil;&atilde;o
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-normal tracking-wide mb-4">
+            Agende sua avaliação
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
-            Um cuidado individualizado come&ccedil;a por conhecer voc&ecirc;, suas necessidades e seus
-            objetivos. Entre em contato com nossa equipe para agendamentos, informa&ccedil;&otilde;es ou
-            orienta&ccedil;&otilde;es sobre seu atendimento.
+            Um cuidado individualizado começa por conhecer você, suas necessidades e seus
+            objetivos. Entre em contato com nossa equipe para agendamentos, informações ou
+            orientações sobre seu atendimento.
           </p>
         </Reveal>
 
@@ -33,14 +33,13 @@ export function Contato() {
                 <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center">
                   <MessageCircle size={24} className="text-brand-600" />
                 </div>
-                <h3 className="font-serif text-2xl text-brand-900 font-semibold">
+                <h3 className="font-sans text-2xl text-brand-900 font-normal tracking-wide">
                   Fale com a nossa equipe
                 </h3>
               </div>
               <p className="text-sm text-brand-800/70 leading-relaxed mb-6">
-                Estamos aqui para cuidar de voc&ecirc;. Entre em contato pelo WhatsApp para agendar sua
-                avalia&ccedil;&atilde;o ou tirar suas d&uacute;vidas. Nossa equipe estar&aacute; &agrave;
-                disposi&ccedil;&atilde;o para receber voc&ecirc; e auxiliar em cada etapa do seu atendimento.
+                Estamos aqui para cuidar de você. Entre em contato pelo WhatsApp para agendar sua
+                avaliação ou tirar suas dúvidas. Nossa equipe estará à disposição para receber você e auxiliar em cada etapa do seu atendimento.
               </p>
 
               <ul className="space-y-3 mb-8">
@@ -49,7 +48,9 @@ export function Contato() {
                     <span className="w-5 h-5 rounded-full bg-brand-100 flex items-center justify-center shrink-0">
                       <Check size={14} className="text-brand-600" />
                     </span>
-                    <span className="text-sm text-brand-800/80" dangerouslySetInnerHTML={{ __html: check }} />
+                    <span className="text-sm text-brand-800/80">
+                      {check}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -66,8 +67,8 @@ export function Contato() {
 
               <div className="mt-8 pt-6 border-t border-brand-100">
                 <p className="text-sm text-brand-800/70">
-                  Atendimento particular. Consulte nossa equipe para informa&ccedil;&otilde;es sobre
-                  formas de pagamento e reembolso junto aos conv&ecirc;nios.
+                  Atendimento particular. Consulte nossa equipe para informações sobre
+                  formas de pagamento e reembolso junto aos convênios.
                 </p>
               </div>
             </div>
@@ -80,14 +81,14 @@ export function Contato() {
               <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
                   <Clock size={22} className="text-brand-600" />
-                  <h3 className="font-serif text-xl text-brand-900 font-semibold">
-                    Hor&aacute;rio de Atendimento
+                  <h3 className="font-sans text-xl text-brand-900 font-normal tracking-wide">
+                    Horário de Atendimento
                   </h3>
                 </div>
-                <p className="text-sm text-brand-800/80 mb-2">Segunda a sexta, das 8h &agrave;s 18h.</p>
+                <p className="text-sm text-brand-800/80 mb-2">Segunda a sexta, das 8h às 18h.</p>
                 <p className="text-sm text-brand-800/60">
-                  S&aacute;bados, domingos e feriados: atendimentos de urg&ecirc;ncia, mediante contato
-                  pr&eacute;vio e disponibilidade da equipe.
+                  Sábados, domingos e feriados: atendimentos de urgência, mediante contato
+                  prévio e disponibilidade da equipe.
                 </p>
               </div>
 
@@ -95,13 +96,15 @@ export function Contato() {
               <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm flex-1">
                 <div className="flex items-center gap-3 mb-4">
                   <MapPin size={22} className="text-brand-600" />
-                  <h3 className="font-serif text-xl text-brand-900 font-semibold">Localiza&ccedil;&atilde;o</h3>
+                  <h3 className="font-sans text-xl text-brand-900 font-normal tracking-wide">
+                    Localização
+                  </h3>
                 </div>
                 <div className="text-sm text-brand-800/80 space-y-1 mb-4">
                   <p className="font-medium text-brand-900">Instituto Bernat</p>
                   <p>Odontologia Esportiva e Integrada</p>
                   <p>Torre Verde, salas 4001 e 4003</p>
-                  <p>Bras&iacute;lia / DF</p>
+                  <p>Brasília / DF</p>
                 </div>
                 <a
                   href="https://www.google.com/maps/search/?api=1&query=Torre+Verde+Brasilia+DF"
