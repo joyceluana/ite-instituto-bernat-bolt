@@ -49,7 +49,7 @@ export function Footer() {
               Ciência, esporte e odontologia integrados para a sua saúde.
             </p>
             <p className="text-sm text-brand-400 mt-4 leading-relaxed">
-              Brasília/DF
+              Fundada dia 01 de fevereiro de 2007 - Brasília/DF
             </p>
           </div>
         </div>
