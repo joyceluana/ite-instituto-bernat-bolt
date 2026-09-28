@@ -26,7 +26,7 @@ export function Cuidado() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Um cuidado pensado em você
           </p>
-          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-normal tracking-wide mb-4">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Cada paciente é único. E o nosso cuidado também.
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
@@ -43,7 +43,7 @@ export function Cuidado() {
                 <p className="text-xs tracking-[0.2em] uppercase text-brand-500 font-medium mb-4">
                   {card.kicker}
                 </p>
-                <h3 className="font-sans text-xl text-brand-900 mb-3 font-normal tracking-wide">
+                <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-3">
                   {card.title}
                 </h3>
                 <p className="text-sm text-brand-800/70 leading-relaxed">
