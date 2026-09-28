@@ -32,7 +32,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'], // Ativa a fonte elegante antiga
       },
       animation: {
         'fade-up': 'fadeUp 0.6s ease-out forwards',
