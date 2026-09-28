@@ -3,19 +3,19 @@ import { Reveal } from '@/components/Reveal';
 const differentials = [
   {
     title: 'Cuidado completo',
-    text: 'Todas as especialidades odontol&oacute;gicas reunidas para que cada paciente seja cuidado de forma integrada, do diagn&oacute;stico &agrave; preven&ccedil;&atilde;o e ao tratamento.',
+    text: 'Todas as especialidades odontológicas reunidas para que cada paciente seja cuidado de forma integrada, do diagnóstico à prevenção e ao tratamento.',
   },
   {
-    title: 'Ci&ecirc;ncia e especializa&ccedil;&atilde;o',
-    text: 'Uma Odontologia baseada em evid&ecirc;ncias, conduzida por profissionais especializados, mestres e doutores, em constante atualiza&ccedil;&atilde;o.',
+    title: 'Ciência e especialização',
+    text: 'Uma Odontologia baseada em evidências, conduzida por profissionais especializados, mestres e doutores, em constante atualização.',
   },
   {
     title: 'Cuidado individualizado',
-    text: 'Cada paciente &eacute; &uacute;nico. Por isso, diagn&oacute;stico e planejamento s&atilde;o constru&iacute;dos considerando suas necessidades, rotina e objetivos.',
+    text: 'Cada paciente é único. Por isso, diagnóstico e planejamento são construídos considerando suas necessidades, rotina e objetivos.',
   },
   {
-    title: 'Sa&uacute;de al&eacute;m dos dentes',
-    text: 'Entendemos a sa&uacute;de bucal como parte da sa&uacute;de integral, considerando sua rela&ccedil;&atilde;o com qualidade de vida, bem-estar e desempenho esportivo.',
+    title: 'Saúde além dos dentes',
+    text: 'Entendemos a saúde bucal como parte da saúde integral, considerando sua relação com qualidade de vida, bem-estar e desempenho esportivo.',
   },
 ];
 
@@ -40,10 +40,9 @@ export function JeitoBernat() {
                 <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold">
                   {item.title}
                 </h3>
-                <p
-                  className="text-sm text-brand-800/70 leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: item.text }}
-                />
+                <p className="text-sm text-brand-800/70 leading-relaxed">
+                  {item.text}
+                </p>
               </div>
             </Reveal>
           ))}
