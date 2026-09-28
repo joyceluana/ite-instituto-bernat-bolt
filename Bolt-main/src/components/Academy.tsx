@@ -26,7 +26,7 @@ export function Academy() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Educação & Desenvolvimento Profissional
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 mb-4">
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-normal tracking-wide mb-4">
             Instituto Bernat Academy
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
@@ -41,7 +41,7 @@ export function Academy() {
             <Reveal key={card.title} delay={i * 100}>
               <div className="h-full p-8 rounded-2xl bg-brand-50/40 border border-brand-100 hover:border-brand-300 hover:bg-white hover:shadow-lg transition-all duration-300">
                 <div className="w-10 h-1 bg-brand-500 rounded-full mb-5" />
-                <h3 className="font-serif text-xl text-brand-900 font-semibold mb-1">
+                <h3 className="font-sans text-xl text-brand-900 font-normal tracking-wide mb-1">
                   {card.title}
                 </h3>
                 <p className="text-xs tracking-wide uppercase text-brand-600 font-medium mb-4">
