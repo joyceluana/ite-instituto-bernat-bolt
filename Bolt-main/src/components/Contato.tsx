@@ -15,7 +15,7 @@ export function Contato() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Contato & Atendimento
           </p>
-          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-normal tracking-wide mb-4">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Agende sua avaliação
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
@@ -33,7 +33,7 @@ export function Contato() {
                 <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center">
                   <MessageCircle size={24} className="text-brand-600" />
                 </div>
-                <h3 className="font-sans text-2xl text-brand-900 font-normal tracking-wide">
+                <h3 className="font-serif text-2xl text-brand-900 font-semibold tracking-wide">
                   Fale com a nossa equipe
                 </h3>
               </div>
@@ -81,7 +81,7 @@ export function Contato() {
               <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
                   <Clock size={22} className="text-brand-600" />
-                  <h3 className="font-sans text-xl text-brand-900 font-normal tracking-wide">
+                  <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide">
                     Horário de Atendimento
                   </h3>
                 </div>
@@ -96,7 +96,7 @@ export function Contato() {
               <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm flex-1">
                 <div className="flex items-center gap-3 mb-4">
                   <MapPin size={22} className="text-brand-600" />
-                  <h3 className="font-sans text-xl text-brand-900 font-normal tracking-wide">
+                  <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide">
                     Localização
                   </h3>
                 </div>
