@@ -18,13 +18,13 @@ export function Equipe() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Instituto Bernat &middot; Odontologia Integrada
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 mb-4">
-            Excel&ecirc;ncia em cada especialidade
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-normal tracking-wide mb-4">
+            Excelência em cada especialidade
           </h2>
           <p className="text-brand-800/70 max-w-2xl mx-auto leading-relaxed">
-            Um corpo cl&iacute;nico multidisciplinar, com profissionais especializados e diferentes
-            &aacute;reas trabalhando em conjunto para oferecer um cuidado completo, individualizado e
-            baseado em ci&ecirc;ncia.
+            Um corpo clínico multidisciplinar, com profissionais especializados e diferentes
+            áreas trabalhando em conjunto para oferecer um cuidado completo, individualizado e
+            baseado em ciência.
           </p>
         </Reveal>
 
@@ -52,7 +52,7 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
               <img src={member.photo} alt={member.name} className="w-full h-full object-contain" />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
-                <span className="font-serif text-5xl text-brand-700 font-semibold">
+                <span className="font-sans text-5xl text-brand-700 font-normal">
                   {member.name.split(' ').slice(-2).map((namePart) => namePart[0]).join('')}
                 </span>
               </div>
@@ -60,14 +60,14 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
           </div>
           <div className="flex-1 px-4 pt-6 pb-3 flex flex-col">
             <p className="text-xs font-semibold tracking-wide text-[#8d7042] mb-3">{member.cro}</p>
-            <h3 className="font-serif text-[1.55rem] leading-tight text-brand-800 mb-3">{member.name}</h3>
+            <h3 className="font-sans text-[1.55rem] leading-tight text-brand-800 mb-3 font-normal tracking-wide">{member.name}</h3>
             <p className="text-sm uppercase font-semibold leading-snug text-brand-800">{member.specialties}</p>
             <button
               type="button"
               onClick={() => setIsFlipped(true)}
               className="mt-auto self-start inline-flex items-center gap-2 text-brand-800 font-semibold hover:text-brand-600 transition-colors"
             >
-              Ver curr&iacute;culo <ArrowRight size={18} />
+              Ver currículo <ArrowRight size={18} />
             </button>
           </div>
         </div>
@@ -75,8 +75,8 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
         <div className="flip-card-back absolute inset-0 rounded-[22px] bg-brand-800 text-white p-8 flex flex-col">
           <div className="flex items-start justify-between gap-4 pb-5 border-b border-white/15">
             <div>
-              <p className="text-xs uppercase tracking-wide text-[#d1ae65] font-semibold mb-3">Forma&ccedil;&atilde;o &amp; experi&ecirc;ncia</p>
-              <h3 className="font-serif text-2xl leading-tight">{member.name}</h3>
+              <p className="text-xs uppercase tracking-wide text-[#d1ae65] font-semibold mb-3">Formação & experiência</p>
+              <h3 className="font-sans text-2xl leading-tight font-normal tracking-wide">{member.name}</h3>
             </div>
             <button
               type="button"
