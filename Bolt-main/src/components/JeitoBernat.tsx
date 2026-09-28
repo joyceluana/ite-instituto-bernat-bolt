@@ -27,7 +27,7 @@ export function JeitoBernat() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Por que o Instituto Bernat?
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             O Jeito Bernat de Cuidar
           </h2>
         </Reveal>
@@ -37,7 +37,7 @@ export function JeitoBernat() {
             <Reveal key={item.title} delay={i * 100}>
               <div className="group h-full p-7 rounded-2xl bg-brand-50/50 border border-brand-100 hover:border-brand-300 hover:bg-white hover:shadow-xl hover:shadow-brand-900/5 transition-all duration-300">
                 <div className="w-10 h-1 bg-brand-500 rounded-full mb-5 group-hover:w-16 transition-all duration-300" />
-                <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold">
+                <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-3">
                   {item.title}
                 </h3>
                 <p className="text-sm text-brand-800/70 leading-relaxed">
