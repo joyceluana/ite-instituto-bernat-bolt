@@ -40,7 +40,7 @@ export function Navigation() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors relative group ${
+              className={`font-sans text-sm font-medium transition-colors relative group ${
                 scrolled ? 'text-brand-800 hover:text-brand-600' : 'text-white/90 hover:text-white'
               }`}
             >
@@ -56,7 +56,7 @@ export function Navigation() {
           href="https://wa.me/5561996586589"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden lg:inline-flex items-center px-5 py-2.5 bg-brand-600 text-white text-sm font-medium rounded-full hover:bg-brand-700 transition-colors"
+          className="font-sans hidden lg:inline-flex items-center px-5 py-2.5 bg-brand-600 text-white text-sm font-medium rounded-full hover:bg-brand-700 transition-colors"
         >
           Agende sua Consulta
         </a>
@@ -78,7 +78,7 @@ export function Navigation() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium text-brand-800 hover:text-brand-600 py-2"
+                className="font-sans text-sm font-medium text-brand-800 hover:text-brand-600 py-2"
               >
                 {link.label}
               </a>
@@ -88,7 +88,7 @@ export function Navigation() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
-              className="inline-flex items-center justify-center px-5 py-2.5 bg-brand-600 text-white text-sm font-medium rounded-full mt-2"
+              className="font-sans inline-flex items-center justify-center px-5 py-2.5 bg-brand-600 text-white text-sm font-medium rounded-full mt-2"
             >
               Agende sua Consulta
             </a>
