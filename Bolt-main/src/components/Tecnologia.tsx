@@ -3,15 +3,18 @@ import { technologies } from '@/data/technology';
 
 export function Tecnologia() {
   return (
-    <section className="py-24 bg-white">
+    <section id="tecnologia" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <Reveal className="text-center mb-14 max-w-2xl mx-auto">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 mb-4">
-            Tecnologia a servi&ccedil;o do cuidado
+          <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
+            Inovação & Precisão
+          </p>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
+            Tecnologia a serviço do cuidado
           </h2>
           <p className="text-brand-800/70 leading-relaxed">
-            Investimos em tecnologia para tornar o diagn&oacute;stico e o tratamento mais precisos,
-            confort&aacute;veis e individualizados.
+            Investimos em tecnologia para tornar o diagnóstico e o tratamento mais precisos,
+            confortáveis e individualizados.
           </p>
         </Reveal>
 
