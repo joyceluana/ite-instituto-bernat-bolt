@@ -8,8 +8,8 @@ export function QuemSomos() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Quem Somos
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900">
-            Um novo padr&atilde;o de cuidado odontol&oacute;gico
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-brand-900 font-bold tracking-tight">
+            Um novo padrão de cuidado odontológico
           </h2>
         </Reveal>
 
@@ -25,22 +25,22 @@ export function QuemSomos() {
                 />
               </div>
               <p className="font-serif text-lg leading-relaxed text-brand-50 italic mb-5">
-                &ldquo;Tudo come&ccedil;ou em 2007, na cl&iacute;nica da minha m&atilde;e, que &eacute;
-                fonoaudi&oacute;loga. Foi ali que comecei a construir minha hist&oacute;ria na
-                Odontologia. Aos poucos, foi nascendo o sonho de ter um espa&ccedil;o que reunisse tudo o
-                que amo: a cl&iacute;nica, a ci&ecirc;ncia, o ensino e o cuidado com as pessoas. Hoje, esse
-                sonho &eacute; o Instituto Bernat.&rdquo;
+                &ldquo;Tudo começou em 2007, na clínica da minha mãe, que é
+                fonoaudióloga. Foi ali que comecei a construir minha história na
+                Odontologia. Aos poucos, foi nascendo o sonho de ter um espaço que reunisse tudo o
+                que amo: a clínica, a ciência, o ensino e o cuidado com as pessoas. Hoje, esse
+                sonho é o Instituto Bernat.&rdquo;
               </p>
               <p className="text-sm text-brand-200 font-medium">Dra. Milla Bernat</p>
 
               <div className="mt-8 pt-6 border-t border-brand-600/50">
-                <p className="text-xs uppercase tracking-wider text-brand-300 mb-2">Diretora Cl&iacute;nica</p>
+                <p className="text-xs uppercase tracking-wider text-brand-300 mb-2">Diretora Clínica</p>
                 <p className="text-sm text-brand-100 mb-1">CRO-DF 7915</p>
-                <p className="text-sm text-brand-100 mb-1">Mestra em Odontologia pela Universidade de Bras&iacute;lia (UnB)</p>
+                <p className="text-sm text-brand-100 mb-1">Mestra em Odontologia pela Universidade de Brasília (UnB)</p>
                 <p className="text-sm text-brand-100 mb-1">Especialista em Periodontia, Implantodontia e Odontologia do Esporte</p>
-                <p className="text-sm text-brand-100 mb-3">Professora universit&aacute;ria</p>
+                <p className="text-sm text-brand-100 mb-3">Professora universitária</p>
                 <a href="#equipe" className="text-sm text-brand-300 hover:text-white transition-colors underline underline-offset-4">
-                  Conhe&ccedil;a a Dra. Milla &rarr;
+                  Conheça a Dra. Milla &rarr;
                 </a>
               </div>
             </div>
@@ -50,31 +50,31 @@ export function QuemSomos() {
           <Reveal delay={150}>
             <div className="space-y-5 text-brand-800/80 leading-relaxed">
               <p>
-                O Instituto Bernat &eacute; resultado de uma trajet&oacute;ria constru&iacute;da desde 2007,
-                que cresceu junto com a experi&ecirc;ncia cl&iacute;nica, o conhecimento e uma forma de
-                enxergar uma Odontologia que vai muito al&eacute;m dos dentes.
+                O Instituto Bernat é resultado de uma trajetória construída desde 2007,
+                que cresceu junto com a experiência clínica, o conhecimento e uma forma de
+                enxergar uma Odontologia que vai muito além dos dentes.
               </p>
               <p>
-                Hoje, reunimos diferentes especialidades em um espa&ccedil;o dedicado ao cuidado integral
-                da sa&uacute;de bucal, aproximando pr&aacute;tica cl&iacute;nica, ci&ecirc;ncia e ensino.
-                Cada paciente &eacute; cuidado de forma individualizada, considerando n&atilde;o apenas suas
-                necessidades odontol&oacute;gicas, mas tamb&eacute;m sua hist&oacute;ria, seus objetivos e
+                Hoje, reunimos diferentes especialidades em um espaço dedicado ao cuidado integral
+                da saúde bucal, aproximando prática clínica, ciência e ensino.
+                Cada paciente é cuidado de forma individualizada, considerando não apenas suas
+                necessidades odontológicas, mas também sua história, seus objetivos e
                 seu estilo de vida.
               </p>
               <p>
-                Acreditamos em uma Odontologia feita com ci&ecirc;ncia, escuta, respeito e empatia. Um
-                cuidado que busca sa&uacute;de, fun&ccedil;&atilde;o e est&eacute;tica, sem perder de vista
-                aquilo que est&aacute; no centro de tudo: o paciente.
+                Acreditamos em uma Odontologia feita com ciência, escuta, respeito e empatia. Um
+                cuidado que busca saúde, função e estética, sem perder de vista
+                aquilo que está no centro de tudo: o paciente.
               </p>
 
               <div className="mt-8 p-6 bg-white rounded-2xl border border-brand-100 shadow-sm">
-                <p className="font-serif text-lg text-brand-900 mb-2">
-                  Nossa experi&ecirc;ncia come&ccedil;a antes da consulta
+                <p className="font-sans text-lg text-brand-900 font-semibold mb-2">
+                  Nossa experiência começa antes da consulta
                 </p>
                 <p className="text-sm text-brand-800/70 leading-relaxed">
-                  No Instituto Bernat, o cuidado come&ccedil;a no primeiro contato. Da chegada ao Instituto
-                  ao atendimento cl&iacute;nico, cada detalhe &eacute; pensado para que voc&ecirc; se sinta
-                  acolhido, respeitado e confiante. Porque, para n&oacute;s, cuidar tamb&eacute;m est&aacute;
+                  No Instituto Bernat, o cuidado começa no primeiro contato. Da chegada ao Instituto
+                  ao atendimento clínico, cada detalhe é pensado para que você se sinta
+                  acolhido, respeitado e confiante. Porque, para nós, cuidar também está
                   na forma como recebemos, ouvimos e acompanhamos cada paciente.
                 </p>
               </div>
@@ -86,26 +86,26 @@ export function QuemSomos() {
         <Reveal>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
-              <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold">Miss&atilde;o</h3>
+              <h3 className="font-sans text-xl text-brand-900 mb-3 font-bold">Missão</h3>
               <p className="text-sm text-brand-800/70 leading-relaxed">
-                Cuidar da sa&uacute;de bucal de forma integral e individualizada, unindo ci&ecirc;ncia,
-                excel&ecirc;ncia cl&iacute;nica, escuta e empatia para promover sa&uacute;de, fun&ccedil;&atilde;o,
-                est&eacute;tica e qualidade de vida.
+                Cuidar da saúde bucal de forma integral and individualizada, unindo ciência,
+                excelência clínica, escuta e empatia para promover saúde, função,
+                estética e qualidade de vida.
               </p>
             </div>
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
-              <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold">Vis&atilde;o</h3>
+              <h3 className="font-sans text-xl text-brand-900 mb-3 font-bold">Visão</h3>
               <p className="text-sm text-brand-800/70 leading-relaxed">
-                Ser refer&ecirc;ncia em Odontologia integrada, reconhecida pela excel&ecirc;ncia
-                cl&iacute;nica, pelo cuidado com o paciente e pela integra&ccedil;&atilde;o entre
-                assist&ecirc;ncia, ci&ecirc;ncia e ensino.
+                Ser referência em Odontologia integrada, reconhecida pela excelência
+                clínica, pelo cuidado com o paciente e pela integração entre
+                assistência, ciência e ensino.
               </p>
             </div>
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
-              <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold">Valores</h3>
+              <h3 className="font-sans text-xl text-brand-900 mb-3 font-bold">Valores</h3>
               <p className="text-sm text-brand-800/70 leading-relaxed">
-                Ci&ecirc;ncia &middot; &Eacute;tica &middot; Cuidado &middot; Escuta &middot; Empatia &middot;
-                Respeito &middot; Excel&ecirc;ncia &middot; Ensino
+                Ciência &middot; Ética &middot; Cuidado &middot; Escuta &middot; Empatia &middot;
+                Respeito &middot; Excelência &middot; Ensino
               </p>
             </div>
           </div>
