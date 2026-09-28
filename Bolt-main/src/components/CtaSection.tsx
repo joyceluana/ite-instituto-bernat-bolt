@@ -8,10 +8,10 @@ export function CtaSection() {
 
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
         <Reveal>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-white mb-4 leading-tight">
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-5xl text-white font-normal tracking-wide mb-4 leading-tight">
             Cuidado de verdade, desde o primeiro contato.
           </h2>
-          <p className="text-lg text-brand-100 mb-8">
+          <p className="text-lg text-brand-100 mb-8 font-light">
             Tecnologia para facilitar. Pessoas para ouvir, acolher e cuidar.
           </p>
           <a
