@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowRight, ArrowLeft, X } from 'lucide-react';
+import { ArrowRight, X } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { specialties, type Specialty } from '@/data/specialties';
 
@@ -15,11 +15,11 @@ export function Especialidades() {
           <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
             Cuidado Integrado
           </p>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 mb-4">
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Atendimento completo em todas as especialidades
           </h2>
           <p className="text-brand-800/70 max-w-2xl mx-auto leading-relaxed">
-            Diferentes especialidades trabalhando de forma integrada para cuidar da sua sa&uacute;de
+            Diferentes especialidades trabalhando de forma integrada para cuidar da sua saúde
             bucal em todas as fases do tratamento.
           </p>
         </Reveal>
@@ -32,7 +32,7 @@ export function Especialidades() {
                 onClick={() => setSelected(spec)}
                 className="group h-full w-full text-left p-6 rounded-2xl bg-brand-600 text-white hover:bg-brand-700 transition-all duration-300 hover:shadow-xl hover:shadow-brand-900/15 hover:-translate-y-1"
               >
-                <h3 className="font-serif text-lg font-semibold mb-2">{spec.name}</h3>
+                <h3 className="font-serif text-lg font-semibold tracking-wide mb-2">{spec.name}</h3>
                 <p className="text-xs text-brand-100/90 line-clamp-3 mb-4">{spec.shortDescription}</p>
                 <span className="text-xs text-brand-200 group-hover:text-white transition-colors inline-flex items-center gap-1">
                   Saiba mais <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -50,7 +50,7 @@ export function Especialidades() {
                 onClick={() => setSelected(spec)}
                 className="group h-full w-full text-left p-6 rounded-2xl bg-white border border-brand-100 hover:border-brand-300 hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
               >
-                <h3 className="font-serif text-lg font-semibold text-brand-900 mb-2">{spec.name}</h3>
+                <h3 className="font-serif text-lg font-semibold text-brand-900 tracking-wide mb-2">{spec.name}</h3>
                 <p className="text-xs text-brand-800/60 line-clamp-3 mb-4">{spec.shortDescription}</p>
                 <span className="text-xs text-brand-600 group-hover:text-brand-700 inline-flex items-center gap-1">
                   Saiba mais <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -80,7 +80,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
         onClick={(e) => e.stopPropagation()}
       >
         <div className="sticky top-0 bg-white rounded-t-3xl border-b border-brand-100 px-8 py-5 flex items-center justify-between z-10">
-          <h3 className="font-serif text-2xl text-brand-900 font-semibold">{specialty.name}</h3>
+          <h3 className="font-serif text-2xl text-brand-900 font-semibold tracking-wide">{specialty.name}</h3>
           <button
             onClick={onClose}
             className="text-brand-600 hover:bg-brand-50 rounded-full p-2 transition-colors"
@@ -92,7 +92,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
 
         <div className="px-8 py-6 max-h-[70vh] overflow-y-auto">
           {specialty.tagline && (
-            <p className="font-serif text-lg text-brand-700 italic mb-5">{specialty.tagline}</p>
+            <p className="font-serif text-lg text-brand-700 italic tracking-wide mb-5">{specialty.tagline}</p>
           )}
           {specialty.intro && (
             <p className="text-sm text-brand-800/80 leading-relaxed mb-6">{specialty.intro}</p>
@@ -101,7 +101,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
           {specialty.services && (
             <>
               <p className="text-sm font-semibold text-brand-900 mb-4">
-                {specialty.id === 'odontologia-esporte' ? 'Principais servi&ccedil;os:' : 'Entre os principais tratamentos est&atilde;o:'}
+                {specialty.id === 'odontologia-esporte' ? 'Principais serviços:' : 'Entre os principais tratamentos estão:'}
               </p>
               <ul className="space-y-3 mb-6">
                 {specialty.services.map((srv, i) => (
@@ -122,7 +122,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
           )}
 
           {specialty.closingText && (
-            <p className="font-serif text-base text-brand-700 italic mb-6">{specialty.closingText}</p>
+            <p className="font-serif text-base text-brand-700 italic tracking-wide mb-6">{specialty.closingText}</p>
           )}
 
           {specialty.cta && (
