@@ -19,7 +19,7 @@ export function Equipe() {
             Instituto Bernat &middot; Odontologia Integrada
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
-            Excelência em cada specialty
+            Excelência em cada especialidade
           </h2>
           <p className="text-brand-800/70 max-w-2xl mx-auto leading-relaxed">
             Um corpo clínico multidisciplinar, com profissionais especializados e diferentes
