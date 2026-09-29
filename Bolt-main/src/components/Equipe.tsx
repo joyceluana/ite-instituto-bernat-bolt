@@ -8,20 +8,19 @@ export function Equipe() {
     <section id="equipe" className="py-24 bg-brand-50/30">
       <div className="max-w-7xl mx-auto px-6">
         <Reveal className="text-center mb-14">
-          <div className="flex justify-center mb-5">
+          {/* Centraliza a logo vertical nova com tamanho ampliado e elegante para leitura perfeita */}
+          <div className="flex justify-center mb-8">
             <img
-              src="/images/quem-somos/495238181_17845680033471093_3592445627456577289_n.jpg"
+              src="/images/logo-equipe.png"
               alt="Instituto Bernat"
-              className="w-16 h-16 rounded-full object-cover ring-2 ring-brand-200"
+              className="h-28 w-auto object-contain"
             />
           </div>
-          <p className="text-sm tracking-[0.25em] uppercase text-brand-600 font-medium mb-3">
-            Instituto Bernat &middot; Odontologia Integrada
-          </p>
+          
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Excelência em cada especialidade
           </h2>
-          <p className="text-brand-800/70 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-brand-800/70 max-w-2xl mx-auto leading-relaxed text-justify md:text-center">
             Um corpo clínico multidisciplinar, com profissionais especializados e diferentes
             áreas trabalhando em conjunto para oferecer um cuidado completo, individualizado e
             baseado em ciência.
