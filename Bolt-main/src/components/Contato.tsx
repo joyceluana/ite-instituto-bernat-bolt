@@ -103,6 +103,7 @@ export function Contato() {
                 <div className="text-sm text-brand-800/80 space-y-1 mb-4">
                   <p className="font-medium text-brand-900">Instituto Bernat</p>
                   <p>Odontologia Esportiva e Integrada</p>
+                  <p>Odontologia especializada para quem busca saúde, performance e excelência</p>
                   <p>Torre Verde, salas 4001 e 4003</p>
                   <p>Brasília / DF</p>
                 </div>
