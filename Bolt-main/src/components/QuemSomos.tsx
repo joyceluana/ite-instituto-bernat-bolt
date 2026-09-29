@@ -24,8 +24,8 @@ export function QuemSomos() {
                   className="w-full h-full object-cover object-top"
                 />
               </div>
-              <p className="font-serif text-lg leading-relaxed text-brand-50 italic mb-5">
-                &ldquo;Tudo começou em 2007, na clínica da minha mãe, que é
+              <p className="font-serif text-lg leading-relaxed text-brand-50 italic mb-5 text-justify">
+                &ldquo;Tudo começou in 2007, na clínica da minha mãe, que é
                 fonoaudióloga. Foi ali que comecei a construir minha história na
                 Odontologia. Aos poucos, foi nascendo o sonho de ter um espaço que reunisse tudo o
                 que amo: a clínica, a ciência, o ensino e o cuidado com as pessoas. Hoje, esse
@@ -48,7 +48,7 @@ export function QuemSomos() {
 
           {/* Main text */}
           <Reveal delay={150}>
-            <div className="space-y-5 text-brand-800/80 leading-relaxed">
+            <div className="space-y-5 text-brand-800/80 leading-relaxed text-justify">
               <p>
                 O Instituto Bernat é resultado de uma trajetória construída desde 2007,
                 que cresceu junto com a experiência clínica, o conhecimento e uma forma de
@@ -68,10 +68,10 @@ export function QuemSomos() {
               </p>
 
               <div className="mt-8 p-6 bg-white rounded-2xl border border-brand-100 shadow-sm">
-                <p className="font-serif text-lg text-brand-900 font-semibold tracking-wide mb-2">
+                <p className="font-serif text-lg text-brand-900 font-semibold tracking-wide mb-2 text-left">
                   Nossa experiência começa antes da consulta
                 </p>
-                <p className="text-sm text-brand-800/70 leading-relaxed">
+                <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                   No Instituto Bernat, o cuidado começa no primeiro contato. Da chegada ao Instituto
                   ao atendimento clínico, cada detalhe é pensado para que você se sinta
                   acolhido, respected, e confiante. Porque, para nós, cuidar também está
@@ -87,7 +87,7 @@ export function QuemSomos() {
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
               <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold tracking-wide">Missão</h3>
-              <p className="text-sm text-brand-800/70 leading-relaxed">
+              <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                 Cuidar da saúde bucal de forma integral e individualizada, unindo ciência,
                 excelência clínica, escuta e empatia para promover saúde, função,
                 estética e qualidade de vida.
@@ -95,7 +95,7 @@ export function QuemSomos() {
             </div>
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
               <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold tracking-wide">Visão</h3>
-              <p className="text-sm text-brand-800/70 leading-relaxed">
+              <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                 Ser referência em Odontologia integrada, reconhecida pela excelência
                 clínica, pelo cuidado com o paciente e pela integração entre
                 assistência, ciência e ensino.
@@ -103,7 +103,7 @@ export function QuemSomos() {
             </div>
             <div className="p-8 bg-white rounded-2xl border border-brand-100 shadow-sm">
               <h3 className="font-serif text-xl text-brand-900 mb-3 font-semibold tracking-wide">Valores</h3>
-              <p className="text-sm text-brand-800/70 leading-relaxed">
+              <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                 Ciência &middot; Ética &middot; Cuidado &middot; Escuta &middot; Empatia &middot;
                 Respeito &middot; Excelência &middot; Ensino
               </p>
