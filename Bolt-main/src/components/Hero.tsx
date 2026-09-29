@@ -20,7 +20,7 @@ export function Hero() {
         </p>
 
         <h1 className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight tracking-tight mb-6 animate-fade-up hero-title-shadow">
-          Odontologia specializeda para quem busca saúde, performance e excelência
+          Odontologia especializada para quem busca saúde, performance e excelência
         </h1>
 
         <p className="text-base sm:text-lg text-white/95 leading-relaxed max-w-3xl mx-auto mb-4 animate-fade-up font-light text-justify" style={{ animationDelay: '0.15s' }}>
