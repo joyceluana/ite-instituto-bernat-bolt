@@ -40,7 +40,7 @@ export function JeitoBernat() {
                 <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-3">
                   {item.title}
                 </h3>
-                <p className="text-sm text-brand-800/70 leading-relaxed">
+                <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                   {item.text}
                 </p>
               </div>
