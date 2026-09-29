@@ -47,9 +47,14 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
     <div className={`flip-card h-[690px] ${isFlipped ? 'is-flipped' : ''}`}>
       <div className="flip-card-inner relative w-full h-full">
         <div className="flip-card-front absolute inset-0 rounded-[22px] bg-[#faf9f5] border border-[#d9d2c4] shadow-[0_16px_35px_rgba(20,61,47,0.08)] p-3 flex flex-col">
+          {/* Caixa da foto configurada com zoom e enquadramento inteligente de preenchimento */}
           <div className="h-[390px] rounded-[17px] overflow-hidden bg-[#f4f1e9] shrink-0">
             {member.photo ? (
-              <img src={member.photo} alt={member.name} className="w-full h-full object-contain" />
+              <img 
+                src={member.photo} 
+                alt={member.name} 
+                className="w-full h-full object-cover object-center" 
+              />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
                 <span className="font-serif text-5xl text-brand-700 font-semibold">
@@ -61,7 +66,7 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
           <div className="flex-1 px-4 pt-6 pb-3 flex flex-col">
             <p className="text-xs font-semibold tracking-wide text-[#8d7042] mb-3">{member.cro}</p>
             <h3 className="font-serif text-[1.55rem] leading-tight text-brand-800 mb-3 font-semibold tracking-wide">{member.name}</h3>
-            <p className="text-sm uppercase font-semibold leading-snug text-brand-800">{member.specialties}</p>
+            <p className="text-sm uppercase font-semibold leading-snug text-brand-700 text-justify">{member.specialties}</p>
             <button
               type="button"
               onClick={() => setIsFlipped(true)}
@@ -89,8 +94,8 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
           </div>
           <ul className="flex-1 overflow-y-auto py-6 space-y-4 pr-2 team-credentials-scrollbar">
             {member.credentials.map((credential) => (
-              <li key={credential} className="flex gap-3 text-sm leading-relaxed text-brand-50">
-                <span className="text-[#d1ae65] mt-1.5">•</span>
+              <li key={credential} className="flex gap-3 text-sm leading-relaxed text-brand-50 text-justify">
+                <span className="text-[#d1ae65] mt-1.5 shrink-0">•</span>
                 <span>{credential}</span>
               </li>
             ))}
