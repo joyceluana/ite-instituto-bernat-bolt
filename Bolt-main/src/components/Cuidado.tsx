@@ -29,7 +29,7 @@ export function Cuidado() {
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Cada paciente é único.<br />E o nosso cuidado também.
           </h2>
-          <p className="text-brand-800/70 leading-relaxed">
+          <p className="text-brand-800/70 leading-relaxed text-justify">
             No Instituto Bernat, o cuidado começa antes da consulta. Desde o primeiro contato,
             queremos conhecer você, ouvir suas necessidades e tornar cada etapa da sua
             experiência acolhedora, atenciosa e individualizada.
@@ -46,7 +46,7 @@ export function Cuidado() {
                 <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-3">
                   {card.title}
                 </h3>
-                <p className="text-sm text-brand-800/70 leading-relaxed">
+                <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                   {card.text}
                 </p>
               </div>
