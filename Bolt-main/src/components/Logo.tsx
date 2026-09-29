@@ -4,25 +4,20 @@ interface LogoProps {
 }
 
 export function Logo({ className = '', variant = 'dark' }: LogoProps) {
-  const text = variant === 'light' ? '#f0f9f4' : '#1a5c44';
+  // Se a variante for 'dark' (menu rolado com fundo branco), aplica um filtro para tornar a logo branca em escura/verde
+  const logoFilter = variant === 'dark' 
+    ? 'invert(24%) sepia(48%) saturate(738%) hue-rotate(113deg) brightness(93%) contrast(92%)' 
+    : 'none';
+
   return (
-    <div className={`flex items-center gap-2.5 ${className}`}>
+    <div className={`flex items-center ${className}`}>
+      {/* Carrega a sua logo completa em PNG e remove a escrita duplicada em código */}
       <img
-        src="/images/quem-somos/495238181_17845680033471093_3592445627456577289_n.jpg"
+        src="/images/logo-topo.png"
         alt="Instituto Bernat"
-        className="w-10 h-10 rounded-full object-cover shrink-0"
+        className="h-11 w-auto object-contain shrink-0 transition-all duration-300"
+        style={{ filter: logoFilter }}
       />
-      <div className="flex flex-col leading-none">
-        <span className="font-serif text-xl font-semibold tracking-wide" style={{ color: text }}>
-          Instituto Bernat
-        </span>
-        <span
-          className="text-[0.6rem] tracking-[0.25em] uppercase mt-0.5"
-          style={{ color: text, opacity: 0.7 }}
-        >
-          Odontologia Integrada
-        </span>
-      </div>
     </div>
   );
 }
