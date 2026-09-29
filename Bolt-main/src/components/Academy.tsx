@@ -29,7 +29,7 @@ export function Academy() {
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-brand-900 font-semibold tracking-wide mb-4">
             Instituto Bernat Academy
           </h2>
-          <p className="text-brand-800/70 leading-relaxed">
+          <p className="text-brand-800/70 leading-relaxed text-justify">
             A experiência do Instituto Bernat também se transforma em conhecimento.
             Por meio de cursos, imersões e mentorias, integramos ciência e prática
             clínica na formação e no desenvolvimento de profissionais da Odontologia.
@@ -47,7 +47,7 @@ export function Academy() {
                 <p className="text-xs tracking-wide uppercase text-brand-600 font-medium mb-4">
                   {card.subtitle}
                 </p>
-                <p className="text-sm text-brand-800/70 leading-relaxed">
+                <p className="text-sm text-brand-800/70 leading-relaxed text-justify">
                   {card.text}
                 </p>
               </div>
