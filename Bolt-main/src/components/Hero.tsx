@@ -20,17 +20,15 @@ export function Hero() {
         </p>
 
         <h1 className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight tracking-tight mb-6 animate-fade-up hero-title-shadow">
-          Odontologia que integra ciência, esporte e saúde.
+          Odontologia especializada para quem busca saúde, performance e excelência
         </h1>
 
         <p className="text-base sm:text-lg text-white/95 leading-relaxed max-w-3xl mx-auto mb-4 animate-fade-up font-light" style={{ animationDelay: '0.15s' }}>
-          O Instituto Bernat une excelência clínica, tecnologia de ponta e cuidado humanizado para tratar a
-          sua saúde bucal como parte essencial da saúde do seu corpo &mdash; em todas as especialidades, com
-          destaque para Periodontia, Odontologia do Esporte e Ortodontia com Invisalign.
+          No Instituto Bernat, a saúde bucal é cuidada de forma integrada, individualizada e baseada em ciência. Contamos com todas as especialidades odontológicas para um cuidado completo, com destaque para Periodontia, Implantodontia, Odontologia do Esporte, Ortodontia com Invisalign e Odontologia Estética
         </p>
 
         <p className="text-sm text-white/85 mb-10 animate-fade-up font-light" style={{ animationDelay: '0.25s' }}>
-          Liderado pela Dra. Milla Bernat &middot; Mestra em Odontologia pela UnB
+          Sob direção clínica da Dra. Milla Bernat — Mestra em Odontologia pela UnB e especialista em Periodontia, Implantodontia e Odontologia do Esporte
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: '0.35s' }}>
