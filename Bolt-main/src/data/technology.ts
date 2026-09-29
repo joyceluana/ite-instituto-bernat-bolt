@@ -5,7 +5,7 @@ export interface Technology {
 
 export const technologies: Technology[] = [
   {
-    name: 'Scanner intraoral iTero',
+    name: 'Scanner intraoral iTero®',
     description: 'Moldagens digitais mais confortáveis e precisas, com visualização imediata em 3D.',
   },
   {
