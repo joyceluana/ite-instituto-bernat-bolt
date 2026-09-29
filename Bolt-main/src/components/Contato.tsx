@@ -104,7 +104,9 @@ export function Contato() {
                   <p className="font-medium text-brand-900">Instituto Bernat</p>
                   <p>Odontologia Esportiva e Integrada</p>
                   <p>Odontologia especializada para quem busca saúde, performance e excelência</p>
-                  <p>Torre Verde, salas 4001 e 4003</p>
+                  <p>SDN conjunto A, torre verde, Shopping Conjunto Nacional</p>
+                  <p>Salas 4001 e 4003</p>
+                  <p>Asa norte</p>
                   <p>Brasília / DF</p>
                 </div>
                 <a
