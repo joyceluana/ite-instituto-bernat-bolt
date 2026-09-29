@@ -43,26 +43,39 @@ export function Equipe() {
 function TeamCard({ member }: { member: (typeof team)[number] }) {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  // Regra de enquadramento cirúrgico individualizado por profissional
+  // Mapeamento inteligente de fundo e corte para cada profissional não quebrar o topo da cabeça
   const nameLower = member.name.toLowerCase();
-  const isCloseUp = 
-    nameLower.includes('milla') || 
-    nameLower.includes('polyana') || 
-    nameLower.includes('beatriz');
+  
+  let bgClass = 'bg-[#f4f1e9]'; // Fundo padrão para fotos normais
+  let fitClass = 'object-cover object-center'; // Corte padrão
 
-  const imageAlignment = isCloseUp ? 'object-top' : 'object-center';
+  if (nameLower.includes('helton')) {
+    bgClass = 'bg-[#676769]'; // Casamento perfeito com o fundo cinza do Dr. Helton
+    fitClass = 'object-contain';
+  } else if (nameLower.includes('mateus')) {
+    bgClass = 'bg-[#b6b9db]'; // Casamento com o fundo azulado do Dr. Mateus
+    fitClass = 'object-contain';
+  } else if (nameLower.includes('amanda')) {
+    bgClass = 'bg-white'; // Casamento com o fundo branco da Dra. Amanda
+    fitClass = 'object-contain';
+  } else if (nameLower.includes('beatriz')) {
+    bgClass = 'bg-[#ece6df]'; // Fundo suave para a foto aproximada da Dra. Beatriz
+    fitClass = 'object-contain';
+  } else if (nameLower.includes('milla') || nameLower.includes('polyana')) {
+    fitClass = 'object-cover object-top'; // Mantém o preenchimento perfeito focado no topo delas
+  }
 
   return (
     <div className={`flip-card h-[690px] ${isFlipped ? 'is-flipped' : ''}`}>
       <div className="flip-card-inner relative w-full h-full">
         <div className="flip-card-front absolute inset-0 rounded-[22px] bg-[#faf9f5] border border-[#d9d2c4] shadow-[0_16px_35px_rgba(20,61,47,0.08)] p-3 flex flex-col">
-          {/* Caixa da foto com enquadramento misto individualizado */}
-          <div className="h-[390px] rounded-[17px] overflow-hidden bg-[#f4f1e9] shrink-0">
+          {/* Caixa da foto inteligente com cores integradas */}
+          <div className={`h-[390px] rounded-[17px] overflow-hidden shrink-0 ${bgClass}`}>
             {member.photo ? (
               <img 
                 src={member.photo} 
                 alt={member.name} 
-                className={`w-full h-full object-cover ${imageAlignment}`} 
+                className={`w-full h-full ${fitClass}`} 
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
