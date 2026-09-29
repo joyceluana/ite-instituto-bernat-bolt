@@ -47,13 +47,13 @@ function TeamCard({ member }: { member: (typeof team)[number] }) {
     <div className={`flip-card h-[690px] ${isFlipped ? 'is-flipped' : ''}`}>
       <div className="flip-card-inner relative w-full h-full">
         <div className="flip-card-front absolute inset-0 rounded-[22px] bg-[#faf9f5] border border-[#d9d2c4] shadow-[0_16px_35px_rgba(20,61,47,0.08)] p-3 flex flex-col">
-          {/* Caixa da foto configurada com zoom e enquadramento inteligente de preenchimento */}
+          {/* Caixa da foto ajustada com zoom proporcional e enquadramento focado no topo da cabeça */}
           <div className="h-[390px] rounded-[17px] overflow-hidden bg-[#f4f1e9] shrink-0">
             {member.photo ? (
               <img 
                 src={member.photo} 
                 alt={member.name} 
-                className="w-full h-full object-cover object-center" 
+                className="w-full h-full object-cover object-top" 
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center">
