@@ -20,10 +20,10 @@ export function Hero() {
         </p>
 
         <h1 className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight tracking-tight mb-6 animate-fade-up hero-title-shadow">
-          Odontologia especializada para quem busca saúde, performance e excelência
+          Odontologia specialized para quem busca saúde, performance e excelência
         </h1>
 
-        <p className="text-base sm:text-lg text-white/95 leading-relaxed max-w-3xl mx-auto mb-4 animate-fade-up font-light" style={{ animationDelay: '0.15s' }}>
+        <p className="text-base sm:text-lg text-white/95 leading-relaxed max-w-3xl mx-auto mb-4 animate-fade-up font-light text-justify" style={{ animationDelay: '0.15s' }}>
           No Instituto Bernat, a saúde bucal é cuidada de forma integrada, individualizada e baseada em ciência. Contamos com todas as especialidades odontológicas para um cuidado completo, com destaque para Periodontia, Implantodontia, Odontologia do Esporte, Ortodontia com Invisalign e Odontologia Estética
         </p>
 
