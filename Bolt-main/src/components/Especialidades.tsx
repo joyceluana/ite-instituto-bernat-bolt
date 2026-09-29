@@ -33,7 +33,7 @@ export function Especialidades() {
                 className="group h-full w-full text-left p-6 rounded-2xl bg-brand-600 text-white hover:bg-brand-700 transition-all duration-300 hover:shadow-xl hover:shadow-brand-900/15 hover:-translate-y-1"
               >
                 <h3 className="font-serif text-lg font-semibold tracking-wide mb-2">{spec.name}</h3>
-                <p className="text-xs text-brand-100/90 line-clamp-3 mb-4">{spec.shortDescription}</p>
+                <p className="text-xs text-brand-100/90 line-clamp-3 mb-4 text-justify">{spec.shortDescription}</p>
                 <span className="text-xs text-brand-200 group-hover:text-white transition-colors inline-flex items-center gap-1">
                   Saiba mais <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                 </span>
@@ -51,7 +51,7 @@ export function Especialidades() {
                 className="group h-full w-full text-left p-6 rounded-2xl bg-white border border-brand-100 hover:border-brand-300 hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
               >
                 <h3 className="font-serif text-lg font-semibold text-brand-900 tracking-wide mb-2">{spec.name}</h3>
-                <p className="text-xs text-brand-800/60 line-clamp-3 mb-4">{spec.shortDescription}</p>
+                <p className="text-xs text-brand-800/60 line-clamp-3 mb-4 text-justify">{spec.shortDescription}</p>
                 <span className="text-xs text-brand-600 group-hover:text-brand-700 inline-flex items-center gap-1">
                   Saiba mais <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
                 </span>
@@ -92,10 +92,10 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
 
         <div className="px-8 py-6 max-h-[70vh] overflow-y-auto">
           {specialty.tagline && (
-            <p className="font-serif text-lg text-brand-700 italic tracking-wide mb-5">{specialty.tagline}</p>
+            <p className="font-serif text-lg text-brand-700 italic tracking-wide mb-5 text-justify">{specialty.tagline}</p>
           )}
           {specialty.intro && (
-            <p className="text-sm text-brand-800/80 leading-relaxed mb-6">{specialty.intro}</p>
+            <p className="text-sm text-brand-800/80 leading-relaxed mb-6 text-justify">{specialty.intro}</p>
           )}
 
           {specialty.services && (
@@ -122,7 +122,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
           )}
 
           {specialty.closingText && (
-            <p className="font-serif text-base text-brand-700 italic tracking-wide mb-6">{specialty.closingText}</p>
+            <p className="font-serif text-base text-brand-700 italic tracking-wide mb-6 text-justify">{specialty.closingText}</p>
           )}
 
           {specialty.cta && (
