@@ -4,18 +4,18 @@ interface LogoProps {
 }
 
 export function Logo({ className = '', variant = 'dark' }: LogoProps) {
-  // Filtro calibrado para converter a imagem branca exatamente no verde oficial do site (#143d2f)
-  const logoFilter = variant === 'dark' 
-    ? 'invert(17%) sepia(21%) saturate(1471%) hue-rotate(111deg) brightness(94%) contrast(92%)' 
-    : 'none';
+  // Troca inteligente: se o menu rolar (fundo branco), mostra a logo verde certa.
+  // Se estiver no topo do banner escuro, mostra a logo branca (logo-topo).
+  const logoSrc = variant === 'dark' 
+    ? '/images/logo-verde.png' 
+    : '/images/logo-topo.png';
 
   return (
     <div className={`flex items-center ${className}`}>
       <img
-        src="/images/logo-topo.png"
+        src={logoSrc}
         alt="Instituto Bernat"
         className="h-11 w-auto object-contain shrink-0 transition-all duration-300"
-        style={{ filter: logoFilter }}
       />
     </div>
   );
