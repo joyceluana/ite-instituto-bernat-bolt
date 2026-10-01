@@ -55,8 +55,9 @@ export function Contato() {
                 ))}
               </ul>
 
+              {/* SETA AMARELA 1: Link do WhatsApp atualizado com o número correto */}
               <a
-                href="https://wa.me/5561996586589"
+                href="https://wa.me"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white text-sm font-medium rounded-full hover:bg-brand-700 transition-colors"
@@ -109,8 +110,10 @@ export function Contato() {
                   <p>Asa norte</p>
                   <p>Brasília / DF</p>
                 </div>
+
+                {/* SETA AMARELA 2: Link de localização atualizado para o ponto exato fornecido */}
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Torre+Verde+Brasilia+DF"
+                  href="https://www.google.com/maps/place/Instituto+Bernat/@-15.7921751,-47.8856625,17z/data=!3m1!4b1!4m6!3m5!1s0x935a3b00261772c5:0xffa641fa8160dde!8m2!3d-15.7921751!4d-47.8830876!16s%2Fg%2F11xvgg57gq?entry=ttu&g_ep=EgoyMDI2MDkyOC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm text-brand-600 hover:text-brand-700 font-medium"
