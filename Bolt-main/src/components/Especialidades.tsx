@@ -127,7 +127,7 @@ function SpecialtyModal({ specialty, onClose }: { specialty: Specialty; onClose:
 
           {specialty.cta && (
             <a
-              href="https://wa.me/5561996586589"
+              href="https://wa.link/fi8103"
               target="_blank"
               rel="noopener noreferrer"
               onClick={onClose}
