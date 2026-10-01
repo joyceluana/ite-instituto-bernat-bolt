@@ -39,7 +39,8 @@ export function Cuidado() {
         <div className="grid md:grid-cols-3 gap-6">
           {cards.map((card, i) => (
             <Reveal key={card.kicker} delay={i * 100}>
-              <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-brand-50 to-white border border-brand-100 hover:shadow-xl hover:shadow-brand-900/5 transition-all duration-300">
+              {/* ALTERADO: Substituição do degradê verde pelo degradê ocre/creme e ajuste da borda */}
+              <div className="h-full p-8 rounded-2xl bg-gradient-to-br from-[#F6F2EB] to-white border border-[#EDE6DB] hover:shadow-xl hover:shadow-brand-900/5 transition-all duration-300">
                 <p className="text-xs tracking-[0.2em] uppercase text-brand-500 font-medium mb-4">
                   {card.kicker}
                 </p>
