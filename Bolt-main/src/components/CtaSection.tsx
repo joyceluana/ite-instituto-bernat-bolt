@@ -15,7 +15,7 @@ export function CtaSection() {
             Tecnologia para facilitar. Pessoas para ouvir, acolher e cuidar.
           </p>
           <a
-            href="https://wa.me/5561996586589"
+            href="https://wa.link/fi8103"
             className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-brand-700 font-medium rounded-full hover:bg-brand-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Fale com nossa equipe &rarr;
