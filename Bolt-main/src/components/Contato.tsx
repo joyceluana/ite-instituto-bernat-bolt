@@ -9,7 +9,7 @@ const checks = [
 
 export function Contato() {
   return (
-    {/* ALTERADO: O fundo geral mudou de verde bg-brand-50/30 para o ocre ultra clarinho bg-[#FBF9F5] */}
+    {/* ALTERADO: Trocado bg-brand-50/30 pelo ocre sutil bg-[#FBF9F5] */}
     <section id="contato" className="py-24 bg-[#FBF9F5]">
       <div className="max-w-7xl mx-auto px-6">
         <Reveal className="text-center mb-14 max-w-2xl mx-auto">
@@ -29,7 +29,7 @@ export function Contato() {
         <div className="grid lg:grid-cols-2 gap-8">
           {/* WhatsApp + checks */}
           <Reveal>
-            {/* ALTERADO: Borda ajustada para casar com o ocre (border-[#EDE6DB]) */}
+            {/* ALTERADO: Ajuste na cor da borda fina para combinar com o ocre */}
             <div className="h-full p-8 lg:p-10 bg-white rounded-3xl border border-[#EDE6DB] shadow-sm">
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-12 h-12 rounded-full bg-brand-100 flex items-center justify-center">
@@ -68,7 +68,7 @@ export function Contato() {
                 Falar no WhatsApp
               </a>
 
-              {/* ALTERADO: Linha divisória sutil em ocre */}
+              {/* ALTERADO: Ajuste na linha divisória interna */}
               <div className="mt-8 pt-6 border-t border-[#EDE6DB]">
                 <p className="text-sm text-brand-800/70">
                   Atendimento particular. Consulte nossa equipe para informações sobre
@@ -82,7 +82,7 @@ export function Contato() {
           <Reveal delay={150}>
             <div className="h-full flex flex-col gap-6">
               {/* Hours */}
-              {/* ALTERADO: Borda ajustada para border-[#EDE6DB] */}
+              {/* ALTERADO: Ajuste na cor da borda fina */}
               <div className="p-8 bg-white rounded-2xl border border-[#EDE6DB] shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
                   <Clock size={22} className="text-brand-600" />
@@ -98,7 +98,7 @@ export function Contato() {
               </div>
 
               {/* Location */}
-              {/* ALTERADO: Borda ajustada para border-[#EDE6DB] */}
+              {/* ALTERADO: Ajuste na cor da borda fina */}
               <div className="p-8 bg-white rounded-2xl border border-[#EDE6DB] shadow-sm flex-1">
                 <div className="flex items-center gap-3 mb-4">
                   <MapPin size={22} className="text-brand-600" />
