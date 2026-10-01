@@ -53,7 +53,7 @@ export function Navigation() {
         </nav>
 
         <a
-          href="https://wa.me/5561996586589"
+          href="https://wa.link/fi8103"
           target="_blank"
           rel="noopener noreferrer"
           className="font-sans hidden lg:inline-flex items-center px-5 py-2.5 bg-brand-600 text-white text-sm font-medium rounded-full hover:bg-brand-700 transition-colors"
@@ -84,7 +84,7 @@ export function Navigation() {
               </a>
             ))}
             <a
-              href="https://wa.me/5561996586589"
+              href="https://wa.link/fi8103"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
