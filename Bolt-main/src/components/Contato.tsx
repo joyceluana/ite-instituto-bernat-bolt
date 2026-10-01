@@ -57,7 +57,7 @@ export function Contato() {
 
               {/* Botão do WhatsApp atualizado com o wa.link gerado */}
               <a
-                href="https://wa.link"
+                href="https://wa.link/fi8103"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white text-sm font-medium rounded-full hover:bg-brand-700 transition-colors"
