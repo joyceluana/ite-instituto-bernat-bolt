@@ -35,7 +35,8 @@ export function JeitoBernat() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {differentials.map((item, i) => (
             <Reveal key={item.title} delay={i * 100}>
-              <div className="group h-full p-7 rounded-2xl bg-brand-50/50 border border-brand-100 hover:border-brand-300 hover:bg-white hover:shadow-xl hover:shadow-brand-900/5 transition-all duration-300">
+              {/* ALTERADO: Mudança do fundo para bg-[#F6F2EB] e ajuste de bordas para tons ocre */}
+              <div className="group h-full p-7 rounded-2xl bg-[#F6F2EB] border border-[#EDE6DB] hover:border-brand-300 hover:bg-white hover:shadow-xl hover:shadow-brand-900/5 transition-all duration-300">
                 <div className="w-10 h-1 bg-brand-500 rounded-full mb-5 group-hover:w-16 transition-all duration-300" />
                 <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-3">
                   {item.title}
