@@ -21,7 +21,8 @@ export function Tecnologia() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {technologies.map((tech, i) => (
             <Reveal key={tech.name} delay={i * 70}>
-              <div className="h-full p-6 rounded-2xl bg-brand-50/40 border border-brand-100 hover:border-brand-300 hover:bg-white hover:shadow-lg transition-all duration-300">
+              {/* ALTERADO: Alteração do fundo verde para ocre/creme clarinho e ajuste sutil na borda */}
+              <div className="h-full p-6 rounded-2xl bg-[#F6F2EB] border border-[#EDE6DB] hover:border-brand-300 hover:bg-white hover:shadow-lg transition-all duration-300">
                 <h3 className="font-serif text-base font-semibold text-brand-900 mb-2">{tech.name}</h3>
                 <p className="text-sm text-brand-800/60 leading-relaxed text-justify">{tech.description}</p>
               </div>
@@ -32,3 +33,4 @@ export function Tecnologia() {
     </section>
   );
 }
+
