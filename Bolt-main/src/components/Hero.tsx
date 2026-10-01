@@ -33,7 +33,7 @@ export function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: '0.35s' }}>
           <a
-            href="https://wa.me/5561996586589"
+            href="https://wa.link/fi8103"
             className="inline-flex items-center justify-center px-8 py-3.5 bg-brand-600 text-white font-medium rounded-full hover:bg-brand-700 transition-all duration-300 shadow-lg shadow-brand-600/20 hover:shadow-xl hover:shadow-brand-600/30 hover:-translate-y-0.5"
           >
             Agende sua consulta
