@@ -1,7 +1,7 @@
 import { Instagram, Mail, MessageCircle, Phone } from 'lucide-react';
 import { Logo } from '@/components/Logo';
 
-const whatsappUrl = 'https://wa.me/5561996586589';
+const whatsappUrl = 'https://wa.link/fi8103';
 
 export function Footer() {
   return (
