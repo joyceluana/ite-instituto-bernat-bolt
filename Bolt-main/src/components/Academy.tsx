@@ -39,7 +39,8 @@ export function Academy() {
         <div className="grid md:grid-cols-3 gap-6">
           {cards.map((card, i) => (
             <Reveal key={card.title} delay={i * 100}>
-              <div className="h-full p-8 rounded-2xl bg-brand-50/40 border border-brand-100 hover:border-brand-300 hover:bg-white hover:shadow-lg transition-all duration-300">
+              {/* ALTERADO: Substituição do fundo verde bg-brand-50/40 por bg-[#F6F2EB] e ajuste de borda */}
+              <div className="h-full p-8 rounded-2xl bg-[#F6F2EB] border border-[#EDE6DB] hover:border-brand-300 hover:bg-white hover:shadow-lg transition-all duration-300">
                 <div className="w-10 h-1 bg-brand-500 rounded-full mb-5" />
                 <h3 className="font-serif text-xl text-brand-900 font-semibold tracking-wide mb-1">
                   {card.title}
