@@ -27,7 +27,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <MessageCircle size={16} className="text-white shrink-0" />
-                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition-colors">WhatsApp: (61) 99658-6589</a>
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white/70 transition-colors">WhatsApp: (61) 98658-6589</a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-white shrink-0" />
